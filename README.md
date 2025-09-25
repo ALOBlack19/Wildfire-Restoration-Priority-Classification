@@ -1,20 +1,20 @@
-Here’s the updated README in **pure Markdown format** with all the links included:
-
-```markdown
 # Forest Fire Restoration Prediction – British Columbia
 
+---
 ## Overview
 This project applies machine learning and geospatial analysis to predict priority areas for forest restoration in British Columbia, Canada.  
 The focus is on integrating historical fire records, climate data, elevation, and land cover to assess restoration needs and guide ecological recovery planning.
+--- 
 
 ## Objectives
 - Process and clean fire, climate, and land cover datasets  
 - Generate predictive models for fire restoration priorities  
 - Map predictions for 2026 with geospatial visualizations  
 - Support ecological recovery and rewilding strategies  
+---
 
 ## Repository Structure
-```
+
 
 ├── environment.yml       # Conda environment file
 ├── notebooks/            # Jupyter notebooks for data processing & analysis
@@ -22,7 +22,7 @@ The focus is on integrating historical fire records, climate data, elevation, an
 ├── results/              # Processed outputs and figures
 └── README.md             # Project description
 
-````
+---
 
 ## Data Sources
 Raw data is not stored in this repository to avoid large file sizes.  
@@ -48,6 +48,8 @@ You can access the original datasets from the following sources:
 ### Communities and Population
 - [Canadian Population Data – Open Canada](https://open.canada.ca/data/en/dataset/055919c2-101e-4329-bfd7-1d0c333c0e62/resource/de8a365d-6326-4013-a661-7647e5996c55)  
 
+---
+
 ## Installation
 Clone the repository and create the Conda environment:
 
@@ -56,7 +58,7 @@ git clone https://github.com/ALOBlack19/Wildfire-Restoration-Priority-Classifica
 cd <your-repo>
 conda env create -f environment.yml
 conda activate fire_restore_env
-````
+```
 
 ## Usage
 
