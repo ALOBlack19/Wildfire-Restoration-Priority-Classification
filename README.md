@@ -15,12 +15,23 @@ The focus is on integrating historical fire records, climate data, elevation, an
 
 ## Repository Structure
 
+```bash
+├── environment.yml    
+├── notebooks/   
+├── data_preprocess/
+├── outputs/
+└── README.md             
+# environment.yml = Conda environment files
 
-├── environment.yml       # Conda environment file
-├── notebooks/            # Jupyter notebooks for data processing & analysis
-├── src/                  # Scripts for preprocessing, modeling, and mapping
-├── results/              # Processed outputs and figures
-└── README.md             # Project description
+# notebooks = Jupyter notebooks for data processing & analysis
+
+# data_preprocess = Scripts for preprocessing, modeling, and mapping.
+
+# outputs/ = Processed outputs and figures
+
+# README.md = Project description
+```
+
 
 ---
 
