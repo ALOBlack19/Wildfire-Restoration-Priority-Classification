@@ -2,8 +2,8 @@
 
 ---
 ## Overview
-This project applies machine learning and geospatial analysis to predict priority areas for forest restoration in British Columbia, Canada.  
-The focus is on integrating historical fire records, climate data, elevation, and land cover to assess restoration needs and guide ecological recovery planning.
+* This project applies machine learning and geospatial analysis to predict priority areas for forest restoration in British Columbia, Canada.  
+* The focus is on integrating historical fire records, climate data, elevation, and land cover to assess restoration needs and guide ecological recovery planning.
 --- 
 
 ## Objectives
@@ -16,10 +16,10 @@ The focus is on integrating historical fire records, climate data, elevation, an
 ## Repository Structure
 
 ```bash
-├── environment.yml    
-├── notebooks/   
-├── data_preprocess/
+├── data_preprocess/ 
+├── notebooks/
 ├── outputs/
+├── environment.yml   
 └── README.md             
 # environment.yml = Conda environment files
 
@@ -91,7 +91,4 @@ The project outputs include:
 
 ## License
 
-This project is licensed under the MIT License. See `LICENSE` for details.
-
-```
----
+This project is licensed under the MIT License.
