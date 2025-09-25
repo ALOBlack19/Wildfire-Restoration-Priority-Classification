@@ -1,0 +1,9 @@
+# Ignoring GeoPackage files
+outputs/*.gpkg
+outputs/*.gpd
+
+# Ignoring generated datasets
+outputs/*.html
+
+# ignoring raw data files
+data_raw/*

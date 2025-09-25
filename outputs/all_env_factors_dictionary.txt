@@ -1,0 +1,83 @@
+Data Dictionary
+
+fire_id: Unique identifier for each fire event
+
+fire_year: Year of fire occurrence
+
+fire_month: Month of fire occurrence
+
+fire_day: Day of fire occurrence
+
+fire_rep_date: Reported date of fire event
+
+fire_size_ha: Reported fire size (hectares)
+
+fire_calc_ha: Calculated fire size (hectares)
+
+fire_cause: Cause of fire (categorical code)
+
+fire_map_method: Mapping method used for fire perimeter
+
+fire_poly_date: Date of fire polygon creation
+
+climate_index: Climate dataset index (matching reference)
+
+dist_to_station: Distance to nearest climate/weather station (meters)
+
+dist_roads: Distance to nearest road (meters)
+
+overlap_pct: Percentage overlap with land cover polygon
+
+dist_community: Distance to nearest community (meters)
+
+elevation_mean: Mean elevation in burned area (meters)
+
+elevation_min: Minimum elevation in burned area (meters)
+
+elevation_max: Maximum elevation in burned area (meters)
+
+elevation_std: Standard deviation of elevation in burned area
+
+burnsev_min: Minimum burn severity index in fire area
+
+burnsev_max: Maximum burn severity index in fire area
+
+burnsev_mean: Mean burn severity index in fire area
+
+burnsev_std: Standard deviation of burn severity index
+
+climate_Tm: Mean daily temperature (°C)
+
+climate_Tx: Maximum daily temperature (°C)
+
+climate_Tn: Minimum daily temperature (°C)
+
+climate_P: Precipitation (mm)
+
+climate_S: Sunshine duration (hours)
+
+climate_SG: Solar radiation (MJ/m²)
+
+Year: Climate dataset year (control)
+
+Month: Climate dataset month (control)
+
+climate_long: Longitude of climate station/grid cell
+
+climate_lat: Latitude of climate station/grid cell
+
+climate_RH: Relative humidity (%)
+
+land_cover_code: Land cover type code (numeric)
+
+land_cover_class: Land cover type (categorical class)
+
+land_cover_object_id: Land cover polygon object identifier
+
+land_cover_area_sqm: Area of land cover polygon (square meters)
+
+land_cover_length: Perimeter length of land cover polygon (meters)
+
+geometry: Fire event spatial polygon (geometry object)
+
+overlap_area: Overlap area between fire polygon and land cover polygon (square meters)
