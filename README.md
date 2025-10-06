@@ -89,6 +89,11 @@ The project outputs include:
 * Geospatial maps of 2026 predictions
 * Analytical insights connecting fire history, climate, and landscape features
 
+### Dashboards 
+```bash
+https://public.tableau.com/app/profile/amir.lima.oliveira/viz/BCWildfireAnalysis/ClimateDashboard
+```
+
 ## License
 
 This project is licensed under the MIT License.
